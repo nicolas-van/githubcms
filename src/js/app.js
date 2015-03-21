@@ -17,7 +17,7 @@
         });
 
         var repo = github.getRepo("nicolas-van", "githubapitest");
-        repo.write("gh-pages", "yopla.html", 'coin coin coin coin', '', function(err, res) {
+        repo.write("gh-pages", "yopla.html", 'yohoho', 'testing', function(err, res) {
             debugger;
         });
     };
